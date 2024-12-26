@@ -16,7 +16,7 @@ const Input = forwardRef(
     };
 
     return (
-      <div className="flex flex-col gap-1 overflow-hidden">
+      <div className="flex flex-col gap-1 overflow-hidden w-full">
         {label && (
           <label className="flex items-center gap-1 py-2 font-medium text-sm text-primary">
             {label} {rest?.required && <span>*</span>}
